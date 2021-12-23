@@ -9,7 +9,7 @@ import {changeDetection} from '@demo/emulate/change-detection';
     changeDetection,
 })
 export class TuiRatingExample1 {
-    rateValue: number = 2;
+    rateValue = 2;
 
     form: FormGroup = this.fb.group({rateControl: 2});
 
